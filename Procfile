@@ -1,1 +1,1 @@
-entrypoint: gunicorn -b :$PORT demosite.wsgi:main
+web: gunicorn backend.wsgi --log-file -
