@@ -21,7 +21,7 @@ isort==5.4.2
 kombu==5.0.2
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
-
+gunicorn
 prompt-toolkit==3.0.8
 pycodestyle==2.6.0
 pylint==2.6.0
