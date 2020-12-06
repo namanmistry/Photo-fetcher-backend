@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT main:app
+entrypoint: gunicorn -b :$PORT demosite.wsgi:main
